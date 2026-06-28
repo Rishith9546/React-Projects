@@ -1,0 +1,54 @@
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 40px 20px;
+}
+.hero-content {
+   display: flex;
+   flex-direction: column;
+   max-width: 600px;
+}
+.hero-content .hero-title {
+    flex: 1;
+    font-size: 60px;
+    font-weight:bold;
+    line-height: 1.2;
+    align-items: center;
+}
+.hero-content .hero-description {
+    flex: 1;
+    font-size: 15px;
+    line-height: 1.5;
+    font-weight: 500;
+    color:#aba9a9;
+}
+.hero-content .hero-button {
+    padding: 5px 20px;
+    font-family: "Poppins", sans-serif;
+    margin-right: 10px;
+    background-color: #d01c28;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 13px;
+
+}
+.hero-content .hero-subtitle {
+    font-size: 13px;
+    font-weight: 500;
+    color:#aba9a9;
+    margin-top: 20px;
+     margin-left:10px;
+}
+.hero-content .hero-icons {
+    display: flex;
+    gap: 10px;
+    width: 70%;
+    height: 20px;
+    margin-left:10px;
+}
